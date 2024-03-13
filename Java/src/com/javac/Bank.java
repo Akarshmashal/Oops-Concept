@@ -7,8 +7,7 @@ public class Bank
 	String name;
 	long accno;
 	double bal;
-	private double amt;
-	private Object deposit;
+	
 
 	public Bank(String name, long accno, double bal) 
 	{
@@ -51,8 +50,6 @@ public class Bank
 		Bank b1=new Bank("Akarsh",45787845487l,0);
 		while (true) 
 		{
-			
-		
 		int choice;
 		System.out.println("Enter the choice");
 		System.out.println(" 1.Check Bal \n 2.Withdraw \n 3.Deposit \n 4.Exit");
