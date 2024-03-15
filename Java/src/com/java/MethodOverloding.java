@@ -25,6 +25,7 @@ public class MethodOverloding
 		m1.method(12.0, 13.0);
 		m1.method(12, 53.0);
 		m1.method(89.0, 54);
+		m1.method(1,1);
 	}
 
 }
