@@ -7,10 +7,7 @@ class Football extends Player
 	
 	public Football(String name, int age, double height, String country,int goal,String Position)
 	{
-		this.name = name;
-		this.age = age;
-		this.height = height;
-		this.country = country;
+		super(name, age, height, country);
 		this.goal=goal;
 		this.Position=Position;
 		

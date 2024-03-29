@@ -7,13 +7,14 @@ public class Player
 	double height;
 	String country;
 
-//	public Player(String name, int age, double hight, String country)
-//	{
-//		this.name = name;
-//		this.age = age;
-//		this.hight = hight;
-//		this.country = country;
-//	}
+	public Player(String name, int age, double height, String country) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.height = height;
+		this.country = country;
+	}
+
 	void  displayInfo()
 	{
 		System.out.println("------Player Information--------");

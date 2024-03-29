@@ -7,10 +7,7 @@ class Cricket extends Player
 	
 	public Cricket(String name, int age, double height, String country,int Wicket,int runs) 
 	{
-		this.name = name;
-		this.age = age;
-		this.height = height;
-		this.country = country;
+		super(name, age, height, country);
 		this.Wicket=Wicket;
 		this.runs=runs;
 	}
